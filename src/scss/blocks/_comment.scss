@@ -1,0 +1,51 @@
+.comment {
+    background-image: url(../images/comment.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 731px;
+    display: flex;
+    align-items: center;
+
+
+
+    &__title {
+        color: white;
+        font-family: 'Aleo', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    &__name {
+        color: #fefefe;
+        font-family: 'JosefinSans';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    i {
+        color: #5474fd;
+        font-size: 36px;
+    }
+
+    &__subname {
+        color: #e8e8e8;
+        font-family: 'JosefinSans';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &__info {
+        background-color: #333;
+        column-span: none;
+        margin-left: -30px;
+        padding: 40px 55px 45px 60px;
+    }
+}

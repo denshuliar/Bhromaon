@@ -1,0 +1,12 @@
+.comment {
+  background-image: url(../images/comment.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 731px; }
+  .comment__title {
+    color: white;
+    font-family: 'Aleo';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px; }

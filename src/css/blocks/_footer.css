@@ -1,0 +1,16 @@
+.footer {
+  height: 268px;
+  background-color: #232323; }
+  .footer__name {
+    color: white;
+    font-family: 'JosefinSans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase; }
+  .footer__subname {
+    color: white;
+    font-family: 'JosefinSans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; }

@@ -1,0 +1,12 @@
+.about1 {
+  background-image: url(../images/.about1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px; }
+  .about1__country {
+    color: #e8e8e8;
+    font-family: 'JosefinSans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; }

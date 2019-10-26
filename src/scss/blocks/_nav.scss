@@ -1,0 +1,50 @@
+.nav {
+    height: 80px;
+    background-color: #5474fd;
+    display: flex;
+    align-items: center;
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__name {
+        color: white;
+        font-family: 'JosefinSans', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        display: flex;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: 'Aleo';
+
+        &:hover {
+            border: 1px solid white;
+            padding: 7px 0;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        margin: 0 24px;
+
+        &:focus {
+            color: #D3D3D3;
+        }
+    }
+
+    &__mainlist {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
