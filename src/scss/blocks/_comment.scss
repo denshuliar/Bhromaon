@@ -48,4 +48,13 @@
         margin-left: -30px;
         padding: 40px 55px 45px 60px;
     }
+
+    @media screen and (max-width: 767px) {
+        &__title {
+            font-size: 28px;
+            margin-bottom: 60px;
+        }
+
+        &__logo {}
+    }
 }

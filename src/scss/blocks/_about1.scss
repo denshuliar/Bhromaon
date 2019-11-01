@@ -68,4 +68,26 @@
         }
     }
 
+    @media screen and (max-width: 767px) {
+        &__block {
+            width: 75%;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__country {
+            font-size: 16px;
+        }
+
+        &__subname {
+            font-size: 12px;
+        }
+
+        &__button {
+            font-size: 14px;
+        }
+    }
+
 }

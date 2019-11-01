@@ -2676,12 +2676,16 @@ html {
       opacity: 0.3; }
     .header__scroll a {
       text-decoration: none; }
+  @media screen and (max-width: 767px) {
+    .header__input {
+      width: 300px; } }
 
 .nav {
   height: 80px;
   background-color: #5474fd;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
   .nav__block {
     display: flex;
     justify-content: space-between;
@@ -2711,6 +2715,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center; }
+  @media screen and (max-width: 767px) {
+    .nav__name {
+      font-size: 18px; }
+    .nav__item {
+      font-size: 10px;
+      text-align: center; } }
 
 .why {
   background-image: url(../images/why.png);
@@ -2763,6 +2773,18 @@ html {
     .why__img:nth-child(2) {
       align-self: center;
       margin-left: 150px; }
+  @media screen and (max-width: 767px) {
+    .why__img {
+      width: 100%;
+      margin: 5px; }
+      .why__img:nth-child(2) {
+        margin-left: 40%; }
+    .why__button {
+      width: 100%; }
+    .why__title {
+      font-size: 32px; }
+    .why__desk {
+      font-size: 10px; } }
 
 .road {
   height: 337px;
@@ -2786,6 +2808,11 @@ html {
     flex-direction: column;
     margin-top: -15px;
     background-color: #333; }
+  @media screen and (max-width: 767px) {
+    .road__head {
+      width: 80%; }
+    .road__name {
+      font-size: 24px; } }
 
 .about1 {
   background-image: url(../images/about1.png);
@@ -2843,6 +2870,17 @@ html {
       color: #A9A9A9;
       background: none;
       border: 1px solid #5474fd; }
+  @media screen and (max-width: 767px) {
+    .about1__block {
+      width: 75%; }
+    .about1__title {
+      font-size: 18px; }
+    .about1__country {
+      font-size: 16px; }
+    .about1__subname {
+      font-size: 12px; }
+    .about1__button {
+      font-size: 14px; } }
 
 .about2 {
   background-image: url(../images/about2.png);
@@ -2903,6 +2941,17 @@ html {
       color: #A9A9A9;
       background: none;
       border: 1px solid #5474fd; }
+  @media screen and (max-width: 767px) {
+    .about2__block {
+      width: 75%; }
+    .about2__title {
+      font-size: 18px; }
+    .about2__country {
+      font-size: 16px; }
+    .about2__subname {
+      font-size: 12px; }
+    .about2__button {
+      font-size: 14px; } }
 
 .comment {
   background-image: url(../images/comment.png);
@@ -2942,6 +2991,10 @@ html {
     column-span: none;
     margin-left: -30px;
     padding: 40px 55px 45px 60px; }
+  @media screen and (max-width: 767px) {
+    .comment__title {
+      font-size: 28px;
+      margin-bottom: 60px; } }
 
 .footer {
   height: 268px;

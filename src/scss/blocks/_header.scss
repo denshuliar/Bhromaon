@@ -105,4 +105,9 @@
         }
     }
 
+    @media screen and (max-width: 767px) {
+        &__input {
+            width: 300px;
+        }
+    }
 }
