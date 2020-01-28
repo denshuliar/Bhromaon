@@ -1,10 +1,12 @@
 .why {
     background-image: url(../images/why.png);
-    height: 685px;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     &__info {
         display: flex;
@@ -67,13 +69,14 @@
         }
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         &__img {
-            width: 100%;
-            margin: 5px;
+            display: flex;
+            margin: 4px;
+
 
             &:nth-child(2) {
-                margin-left: 40%;
+                align-self: flex-start;
             }
         }
 
@@ -87,6 +90,60 @@
 
         &__desk {
             font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+        &__img {
+            display: flex;
+            margin: 4px;
+
+            &:nth-child(2) {
+                align-self: flex-start;
+                margin-left: 4px;
+            }
+        }
+
+        &__button {
+            font-size: 12px;
+            width: 60%;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .why {
+            padding-bottom: 60px;
+            padding-top: 60px;
+        }
+
+        img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        &__images {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+        &__info {
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+
+        }
+
+        &__button {
+            width: 80%;
+            align-self: center;
+        }
+
+        &__title {
+            text-align: center;
         }
     }
 

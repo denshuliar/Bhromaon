@@ -16,6 +16,7 @@
         font-family: 'JosefinSans', sans-serif;
         font-size: 24px;
         font-weight: 700;
+        letter-spacing: 2px;
         text-transform: uppercase;
     }
 
@@ -28,14 +29,14 @@
 
         &:hover {
             border: 1px solid white;
-            padding: 7px 0;
+            padding: 5px 0;
         }
     }
 
     &__link {
         text-decoration: none;
         color: white;
-        margin: 0 24px;
+        margin: 0 30px;
 
         &:focus {
             color: #D3D3D3;
@@ -48,7 +49,7 @@
         align-items: center;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 768px) {
         &__name {
             font-size: 18px;
         }
@@ -56,7 +57,21 @@
         &__item {
             font-size: 10px;
             text-align: center;
+
+            &:hover {
+                padding: 3px 0;
+            }
         }
 
+    }
+
+    @media screen and (max-width: 425px) {
+        &__item {
+            font-size: 8px;
+        }
+
+        &__link {
+            margin: 0 10px;
+        }
     }
 }
