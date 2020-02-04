@@ -112,4 +112,16 @@
             width: 300px;
         }
     }
+
+    @media screen and (max-width: 425px) {
+        &__input {
+            width: 250px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        &__input {
+            width: 200px;
+        }
+    }
 }

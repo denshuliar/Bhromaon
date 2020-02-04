@@ -68,6 +68,16 @@
     @media screen and (max-width: 425px) {
         &__item {
             font-size: 8px;
+
+            &:hover {
+                color: gray;
+                border: none;
+                padding: 0;
+            }
+        }
+
+        &__name {
+            font-size: 12px;
         }
 
         &__link {

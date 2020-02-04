@@ -2681,6 +2681,12 @@ html {
   @media screen and (max-width: 767px) {
     .header__input {
       width: 300px; } }
+  @media screen and (max-width: 425px) {
+    .header__input {
+      width: 250px; } }
+  @media screen and (max-width: 375px) {
+    .header__input {
+      width: 200px; } }
 
 .nav {
   height: 80px;
@@ -2729,6 +2735,12 @@ html {
   @media screen and (max-width: 425px) {
     .nav__item {
       font-size: 8px; }
+      .nav__item:hover {
+        color: gray;
+        border: none;
+        padding: 0; }
+    .nav__name {
+      font-size: 12px; }
     .nav__link {
       margin: 0 10px; } }
 
@@ -2812,6 +2824,7 @@ html {
       padding-bottom: 60px;
       padding-top: 60px; }
     .why img {
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
